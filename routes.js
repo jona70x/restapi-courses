@@ -24,7 +24,7 @@ router.get(
         firstName: user.firstName,
         lastName: user.lastName,
         emailAddress: user.emailAddress,
-        userId: user.id,
+        id: user.id,
       });
     } catch (error) {
       if (
